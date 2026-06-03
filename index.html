@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashi Pathariya - Portfolio</title>
+
+    <!-- Bootstrap & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .skills {
+    padding: 60px 0;
+}
+
+.skill-box {
+    margin-bottom: 20px;
+}
+
+.skill-box p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 8px;
+    width: 0;
+    background: linear-gradient(45deg, #ff8c00, #ff4500);
+    transition: width 1.5s ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shashi Pathariya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero text-center">
+        <div class="container">
+            <h1 data-aos="fade-up">SHASHI PATHARIYA</h1>
+            <p data-aos="fade-up" data-aos-delay="200">MCA Graduate | Python Developer Enthusiast |
+QA Testing Learner | Building Real-World Projects</p>
+        </div>
+    </header>
+
+    <hr>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile container" data-aos="fade-up">
+        <br><br><br><br><br><br><br><br>
+        <h2>OBJECTIVE</h2>
+        <p style="text-align: center;">Aspiring QA Engineer and Python Backend Developer with a passion for building 
+            reliable applications and ensuring software quality.Learning Python Backend Development and QA Testing.
+            Passionate about building scalable web applications
+            and ensuring software quality through testing. .Continuously learning new technologies
+            and eager to contribute to innovative development teams..</p>
+    </section>
+<hr>
+    <!-- Education Section -->
+    <section id="education" class="education container">
+        <br><br><br><br><br><br>
+        <h2 data-aos="fade-up">EDUCATION</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="edu-card">
+                    <h3>Master of Computer Applications</h3>
+                    <p>UIT-RGPV BHOPAL</p>
+                    <p>7.12 CGPA</p>
+                    <span>2023 - 2025</span>
+
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="edu-card">
+                    <h3>Bachelor of Computer Applications</h3>
+                    <p>Devi Ahilya Vishwavidyalaya,Indore</p>
+                    <p>75%</p>
+                    <span>2019 - 2022</span>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="edu-card">
+                    <h3>12th (Mathematics-Science)</h3>
+                    <p>Jawahar Navodaya Vidyalaya,Pandhana,KHANDWA</p>
+                    <p>69.8%</p>
+                    <span>2018 - 2019</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Projects Section -->
+    <section id="projects" class="projects container">
+        <br><br><br><br><br><br>
+        <h2 data-aos="fade-up">PROJECTS</h2>
+        <div class="row">
+            
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="project-card">
+                    <h3>Sharanam  Self Study Center </h3>
+                    <p>Developed a Django-based Library Management System for student registration, attendance tracking,
+                         seat booking, and payment management with an easy-to-use interface.
+                        </p>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="project-card">
+                    <h3>SauceDemo E-Commerce Manual Testing Project</h3>
+                    <p>Performed end-to-end manual testing on the SauceDemo e-commerce application.
+Created test cases, executed functional testing, identified defects, and validated core features such as login,
+ product selection, cart, and checkout process.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="project-card">
+                    <h3>Starlink QA Testing</h3>
+                    <p>QA Testing portfolio showcasing test cases, bug reports, test scenarios, 
+                        and software testing documentation developed while learning Manual
+                         Testing concepts and practices.
+                        </p>
+                </div>
+            </div>
+        <div class="col-md-6" data-aos="zoom-in">
+                <div class="project-card">
+                    <h3>TesterWish</h3>
+                    <p>TesterWish is a Flask-based automation and bug reporting tool that runs dynamic test cases, validates APIs and web pages using Python, SQL, and BeautifulSoup, and delivers real-time reports to speed up testing and debugging. It helps teams improve accuracy, reduce manual effort, and streamline the entire QA process.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6" data-aos="zoom-in" style="width:100%;" onclick="window.location.href='project.html'">
+                <div class="project-card" style="height: 60px;">
+                    
+                    <h4>View More....</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <hr>
+    <!-- Skills Section -->
+<!-- Professional Development Section -->
+<section class="experience" id="Experience">
+    <br><br><br>
+
+    <div class="container">
+        <h2 style="color: #2ecc71;">
+            <b>WHAT I BRING TO THE TABLE</b>
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+                <div class="experience-card">
+                    <h3>Python Backend Development</h3>
+
+                    <p>
+                        Learning and building backend applications using
+                        Python, Django, SQL, and REST APIs. Focused on
+                        developing practical projects and writing clean,
+                        maintainable code while strengthening problem-solving skills.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="experience-card">
+                    <h3>Quality Assurance & Testing</h3>
+
+                    <p>
+                        Applying software testing principles through test case
+                        creation, bug reporting, and functional testing.
+                        Dedicated to improving software quality and delivering
+                        reliable user experiences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="experience-card">
+                    <h3>Continuous Learning</h3>
+
+                    <p>
+                        Passionate about learning new technologies,
+                        exploring backend development concepts,
+                        and continuously improving technical and
+                        professional skills through hands-on projects.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Certifications Section -->
+<section id="certifications" class="container">
+    <br><br>
+
+    <h2 style="color: #2ecc71;">
+        <b>CERTIFICATIONS & ACHIEVEMENTS</b>
+    </h2>
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+            <div class="experience-card">
+                <h3>Technical Certifications</h3>
+
+                <ul>
+                    <li>Python Programming Certification</li>
+                    <li>SQL & Database Management</li>
+                    <li>Software Testing Fundamentals</li>
+                    <li>Data Analytics & Power BI</li>
+                    <li>Git & GitHub Essentials</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="experience-card">
+                <h3>Key Achievements</h3>
+
+                <ul>
+                    <li>Completed MCA with focus on Software Development.</li>
+                    <li>Built multiple academic and personal projects.</li>
+                    <li>Developed Django-based web applications.</li>
+                    <li>Created QA testing documentation and test cases.</li>
+                    <li>Continuously enhancing backend and testing skills.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <hr>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact container" data-aos="fade-up">
+        <br><br><br><br><br><br>
+        <h2>CONTACT</h2>
+        <p><i class="fas fa-phone"></i><a href="tel:+918839355549">+91 8839355549</a></p>
+        <p><i class="fas fa-envelope"></i><a href="mailto:pathariyashashi@gmail.com" target="_blank"> Gmail</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/pathariyashashi" target="_blank">Github</a></p>
+        <p><i class="fab fa-pinterest"></i> <a href="https://pin.it/3XVCYl4pA" target="_blank">@pathariyashashi</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/shashi-pathariya-06b07a281?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">@ShashiPathariya</a></p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Shashi Pathariya | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const progressBars = document.querySelectorAll(".progress-bar");
+
+    function animateProgressBars() {
+        progressBars.forEach((bar) => {
+            const value = bar.getAttribute("data-percent");
+            bar.style.width = value + "%";
+        });
+    }
+
+    function checkScroll() {
+        const skillsSection = document.querySelector("#skills");
+        const sectionTop = skillsSection.getBoundingClientRect().top;
+        const triggerPoint = window.innerHeight - 100;
+
+        if (sectionTop < triggerPoint) {
+            animateProgressBars();
+            window.removeEventListener("scroll", checkScroll);
+        }
+    }
+
+    window.addEventListener("scroll", checkScroll);
+});
+
+    </script>
+    <script>
+        function createChart(chartId, dataValues, labels) {
+            var ctx = document.getElementById(chartId).getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: dataValues,
+                        backgroundColor: [
+                            'rgba(0, 255, 136, 0.8)',
+                            'rgba(0, 212, 255, 0.8)',
+                            'rgba(100, 200, 255, 0.8)',
+                            'rgba(0, 255, 200, 0.8)',
+                            'rgba(50, 220, 255, 0.8)'
+                        ],
+                        borderColor: [
+                            '#00ff88',
+                            '#00d4ff',
+                            '#64c8ff',
+                            '#00ffc8',
+                            '#32dcff'
+                        ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'bottom',
+                            labels: {
+                                color: '#e0e0ff',
+                                font: { size: 11 }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function toggleChart(card, chartId, skills, percentages) {
+            let isActive = card.classList.contains("active");
+            document.querySelectorAll(".experience-card, .project-card").forEach(c => c.classList.remove("active"));
+            if (!isActive) {
+                card.classList.add("active");
+                setTimeout(() => createChart(chartId, percentages, skills), 200);
+            }
+        }
+    </script>
+</body>
+</html>
